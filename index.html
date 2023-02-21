@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"> <!--this adds the css doc-->
+</head>
+<body>
+    <div id="gameDiv"> <!--this is the ID of the entire section we can use for reference-->
+        <!--The class gameText is the class we are using to describe our text inside our game. The id's here are referencing where the input is coming from-->
+        <h1 class="gameText" id="playerText">Player: </h1> <!--the class game text is the text produced by our game. The ID playerText is the ID of our input-->
+        <h1 class="gameText" id="computerText">Computer: </h1> 
+        <h1 class="gameText" id="resultText">Result: </h1>
+        <!--Below are the buttons, the class choiceBtn is declaring that the buttons are made by the players choice-->
+        <button class="choiceBtn">Rock</button>
+        <button class="choiceBtn">Paper</button>
+        <button class="choiceBtn">Scissors</button>
+    </div>
+    <!--Below references the location of the .js file and imports it to this document-->
+    <script src="code.js"></script>
+</body>
+</html>
