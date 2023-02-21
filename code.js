@@ -7,9 +7,10 @@ const playerText = document.querySelector("#playerText");
 const computerText = document.querySelector("#computerText");
 const resultText = document.querySelector("#resultText");
 const choiceBtns = document.querySelectorAll(".choiceBtn");
-/* with let we are creating variables. player, computer, and result. We are leaving these blank so that we can fill them later. Remember that let can be changed*/
+/* with let we are creating variables. player, computer, and result. We are leaving these blank so that we can fill them later. 
+Remember that let can be changed*/
 let player;
-let computer;
+let computer; 
 let result;
 /* so below we are creating a function. The name is choiceBtns. We put in .forEach in this function which will execute the function once for each
 array element. Lets break down the actual function. The array elements in this block are the buttons we created in our HTML. The addEvent 
